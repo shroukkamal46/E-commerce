@@ -1,0 +1,234 @@
+/* الأنماط الأساسية - ستظل كما هي */
+.container-fluid {
+    padding: 10px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-nav1 {
+    margin-top: 10px;
+    margin-left: 10em;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.text1 {
+    margin-left: 700px;
+    font-size: small;
+}
+
+.container2 {
+    background-color: rgba(216, 71, 39, 1);
+    color: white;
+    padding: 25px;
+    margin: 10px;
+}
+
+.photo-1 {
+    padding: 10px;
+    text-align: center;
+    margin-right: 60px;
+}
+
+.container-1 {
+    background-color: rgba(218, 94, 66, 1);
+    width: 90em;
+}
+
+.photo2 {
+    width: 400px;
+    background-color: #161616;
+    position: relative;
+    margin-top: 50px;
+}
+
+.line2, .line5, .line3, .line4, .line-9, .line-10 {
+    border: solid;
+}
+
+.line2, .line-9 {
+    width: 2em;
+    height: 50%;
+    color: rgba(51, 51, 51, 1);
+}
+
+.line5, .line3, .line4 {
+    width: 10%;
+}
+
+.line-10 {
+    width: 30px;
+}
+
+.page {
+    background-color: rgba(241, 221, 201, 1);
+}
+
+.card-container {
+    display: inline-table;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.photo {
+    cursor: pointer;
+}
+
+.btn-5, .btn-4 {
+    color: rgba(216, 71, 39, 1);
+    border: solid;
+    width: 20%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.img-fluid {
+    background-color: rgba(241, 221, 201, 1);
+}
+
+.img-fluid-1 {
+    transform: translateX(90%);
+}
+
+.image:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.add-to-Cart {
+    border: solid;
+    background-color: rgba(216, 71, 39, 1);
+    color: white;
+}
+
+.category-2 {
+    justify-content: space-around;
+    list-style: inside;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.img31 {
+    border: #DA5E42 solid;
+    text-align: center;
+    width: 50px;
+}
+
+.post-card {
+    background-color: rgba(241, 221, 201, 1);
+}
+
+.contanier {
+    color: rgba(153, 153, 153, 1);
+}
+
+.text-1 {
+    color: rgba(85, 85, 85, 1);
+}
+
+.text-10 {
+    font-size: small;
+}
+
+/* الوسائط لجعل التصميم responsive */
+@media (max-width: 1200px) {
+    .navbar-nav1 {
+        margin-left: 5em;
+        gap: 5px;
+    }
+
+    .text1 {
+        margin-left: 500px;
+    }
+
+    .photo2 {
+        width: 300px;
+    }
+
+    .btn-5, .btn-4 {
+        width: 30%;
+    }
+
+    .container-1 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav1 {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .card-container {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .photo2 {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .text1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .add-to-Cart {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .container-1 {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .photo-1 {
+        margin-right: 0;
+    }
+
+    .container2 {
+        padding: 15px;
+    }
+
+    .line5, .line3, .line4 {
+        width: 100%;
+        border-width: 1px;
+    }
+
+    .btn-5, .btn-4 {
+        width: 90%;
+        font-size: 0.8em;
+    }
+
+    .img-fluid-1 {
+        transform: none;
+    }
+
+    .line-10 {
+        width: 10px;
+    }
+
+    .photo2 {
+        width: 100%;
+    }
+
+    .container-1 {
+        width: 300px;
+    }
+}

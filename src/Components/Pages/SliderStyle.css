@@ -1,0 +1,39 @@
+.heading
+.second-heading{
+    text-align: center;
+  
+}
+.bg-left{
+   
+    position: absolute;
+    bottom: -175px;
+    background-repeat: no-repeat;
+}
+.bg-right{
+    
+    position: absolute;
+    bottom: -175px;
+    background-repeat: no-repeat;
+}
+.heading-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+.bs-icons{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.bs-icons .Arrow{
+cursor: pointer;
+margin-top: -10px;
+background-color: rgba(216, 71, 39, 1);
+}
+.pagination-slide{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
